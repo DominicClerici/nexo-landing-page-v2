@@ -36,9 +36,6 @@ const QA = () => {
       <AccordionRow htmlId={"browserSup"} last={true} title="What browsers can I use Nexo Start on?">
         Currently Nexo Start supports Google Chrome and Mozilla Firefox.
       </AccordionRow>
-      <AccordionRow htmlId={"browserSup"} last={true} title="What browsers can I use Nexo Start on?">
-        Currently Nexo Start supports Google Chrome and Mozilla Firefox.
-      </AccordionRow>
     </section>
   )
 }
