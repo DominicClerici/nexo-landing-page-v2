@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Arrow from "../svgs/Arrow"
 
 const className = {
@@ -33,7 +34,7 @@ const Features = () => {
             With rich customization options, you can make Nexo Start your own. Nexo start is also fully open source, so
             if you dont like something, you can change it.
           </p>
-          <a className={className.button}>
+          <a href="https://github.com/DominicClerici/nexo-start" target="_blank" className={className.button}>
             See the GitHub <Arrow />
           </a>
         </div>
@@ -41,9 +42,9 @@ const Features = () => {
           <span className={`bg-violet-300 text-violet-700 ${className.tag}`}>Secure</span>
           <h2 className={className.header}>Everything Local</h2>
           <p className={className.text}>All data is stored locally on your machine. No tracking, no ads.</p>
-          <a className={className.button}>
+          <Link href={"/privacy"} className={className.button}>
             Privacy Policy <Arrow />
-          </a>
+          </Link>
         </div>
       </div>
     </section>
