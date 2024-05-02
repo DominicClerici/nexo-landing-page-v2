@@ -5,7 +5,7 @@ import Shortcuts from "./Shortcuts"
 
 const LiveDemoElement = () => {
   return (
-    <div className="relative flex flex-col items-center border-4 rounded-2xl max-w-screen-md mx-auto bg-slate-800 py-8">
+    <div className="relative mx-auto flex max-w-screen-md flex-col items-center rounded-2xl border-4 bg-slate-800 py-8">
       <Clock />
       <Weather />
       <SearchBar />

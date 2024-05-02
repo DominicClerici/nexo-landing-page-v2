@@ -12,10 +12,10 @@ const className = {
 const Features = () => {
   return (
     <section className="my-16 sm:my-36">
-      <h1 className="text-center font-bold text-2xl md:text-3xl lg:text-4xl text-gray-800 px-12">
+      <h1 className="px-12 text-center text-2xl font-bold text-gray-800 md:text-3xl lg:text-4xl">
         Upgrade your browser right from when you open it
       </h1>
-      <div className="flex grid-cols-3 gap-8 max-w-screen-xl mx-auto my-12 px-4 sm:px-12 lg:px-32 md:grid flex-col">
+      <div className="mx-auto my-12 flex max-w-screen-xl grid-cols-3 flex-col gap-8 px-4 sm:px-12 md:grid lg:px-32">
         <div className={className.card}>
           <span className={`bg-green-300 text-green-700 ${className.tag}`}>Faster</span>
           <h2 className={className.header}>Instant Startup</h2>

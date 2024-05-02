@@ -19,7 +19,7 @@ const InstallButton = ({ dark }) => {
     <a
       className={`flex items-center gap-1 font-medium transition-colors ${
         dark ? "bg-black text-white" : "bg-white text-black"
-      } px-3 py-2 rounded`}
+      } rounded px-3 py-2`}
     >
       {isFirefox ? <Firefox className={"h-6 w-6"} /> : <Chrome className={"h-6 w-6"} />}
       Add to {isFirefox ? "Firefox" : "Chrome"}

@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="flex min-h-[75vh] flex-col items-center">
           <div>
             <h1
-              className={`mx-auto drop-shadow-xl mt-32 mb-24 px-8 text-center text-3xl !leading-snug text-white sm:text-4xl lg:w-2/3 md:px-0 md:text-5xl xl:text-6xl ${poppins.className}`}
+              className={`mx-auto mb-24 mt-32 px-8 text-center text-3xl !leading-snug text-white drop-shadow-xl sm:text-4xl md:px-0 md:text-5xl lg:w-2/3 xl:text-6xl ${poppins.className}`}
             >
               The organized, lightweight, and beautiful new tab.
             </h1>

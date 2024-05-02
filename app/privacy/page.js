@@ -7,10 +7,10 @@ const className = {
 }
 const page = () => {
   return (
-    <section className="relative overflow-hidden xl:px-40 lg:px-28 md:px-20 sm:px-12 xs:px-8 px-4 pt-28 mb-12">
+    <section className="xs:px-8 relative mb-12 overflow-hidden px-4 pt-28 sm:px-12 md:px-20 lg:px-28 xl:px-40">
       <BackgroundMesh />
       <h1 className={`text-4xl text-white/90 ${poppins.className}`}>Privacy Policy</h1>
-      <h2 className={`text-xl mt-4 mb-32 text-white/90 ${poppins.className}`}>tldr: No data is collected</h2>
+      <h2 className={`mb-32 mt-4 text-xl text-white/90 ${poppins.className}`}>tldr: No data is collected</h2>
       <p className={className.p}>
         This Privacy Policy governs the manner in which Nexo Start manages the privacy of users (each, a
         &quot;User&quot;) of the Nexo Start website (&quot;Website&quot;). This privacy policy applies to the Website

@@ -1,7 +1,7 @@
 const Arrow = ({ className }) => {
   return (
     <svg
-      className={`h-[15px] w-[15px] opacity-0 text-teal-500 duration-75 group-hover:opacity-100 group-hover:translate-x-0 -translate-x-1 ${className}`}
+      className={`h-[15px] w-[15px] -translate-x-1 text-teal-500 opacity-0 duration-75 group-hover:translate-x-0 group-hover:opacity-100 ${className}`}
       viewBox="0 0 15 15"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
