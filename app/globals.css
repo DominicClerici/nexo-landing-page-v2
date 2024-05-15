@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.safariFix {
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+}

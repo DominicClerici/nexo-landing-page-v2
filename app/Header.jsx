@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header className="xs:px-8 fixed left-0 top-0 z-20 flex w-full items-center justify-between px-2 py-3 sm:px-12 md:px-20 lg:px-28 xl:px-40">
       <div
-        className={`bg-bg/70 absolute inset-0 -z-10 backdrop-blur-xl transition-opacity duration-300 ${
+        className={`bg-bg/70 safariFix absolute inset-0 -z-10 transition-opacity duration-300 ${
           opacity ? "opacity-100" : "opacity-0"
         }`}
       ></div>
