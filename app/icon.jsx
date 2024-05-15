@@ -9,8 +9,8 @@ export default function Icon() {
   return new ImageResponse(
     (
       <svg
-        height={30}
-        width={30}
+        height={32}
+        width={32}
         viewBox="0 0 271 271"
         stroke="#818CF8"
         fill="transparent"
