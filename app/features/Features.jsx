@@ -34,7 +34,7 @@ const Features = () => {
             With rich customization options, you can make Tablio Start your own. Tablio start is also fully open source, so
             if you dont like something, you can change it.
           </p>
-          <a href="https://github.com/DominicClerici/nexo-start" target="_blank" className={className.button}>
+          <a href="https://github.com/DominicClerici/tablio-start" target="_blank" className={className.button}>
             See the GitHub <Arrow />
           </a>
         </div>
