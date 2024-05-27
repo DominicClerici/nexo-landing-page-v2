@@ -31,7 +31,7 @@ const Features = () => {
           <span className={`bg-teal-300 text-teal-700 ${className.tag}`}>Customizable</span>
           <h2 className={className.header}>Modify Everything</h2>
           <p className={className.text}>
-            With rich customization options, you can make Nexo Start your own. Nexo start is also fully open source, so
+            With rich customization options, you can make Tablio Start your own. Tablio start is also fully open source, so
             if you dont like something, you can change it.
           </p>
           <a href="https://github.com/DominicClerici/nexo-start" target="_blank" className={className.button}>

@@ -37,8 +37,8 @@ const Header = () => {
           } xs:px-2 xs:gap-2 flex cursor-pointer items-center gap-1 rounded px-3 py-2 transition-colors hover:bg-black/10 sm:gap-4`}
           href="/"
         >
-          <NexoIcon className={"xs:h-10 xs:w-10 h-8 w-8"} />
-          Nexo Start
+          <NexoIcon className={"xs:h-14 xs:w-14 h-10 w-10"} />
+          Tablio Start
         </a>
       </h1>
       <div className="flex items-center gap-8">

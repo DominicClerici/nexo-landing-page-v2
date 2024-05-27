@@ -25,7 +25,7 @@ const Shortcuts = () => {
   return (
     <div className="group/hov mx-8 mt-4 flex items-start justify-center gap-4 sm:mt-8">
       <ShortcutItem url="https://www.dominicclerici.com" name={"Creator"} color={"#81c5fe"} newTab />
-      <ShortcutItem url="https://chromewebstore.google.com/" name={"Nexo Start"} color={"#8657ff"} newTab />
+      <ShortcutItem url="https://chromewebstore.google.com/" name={"Tablio Start"} color={"#8657ff"} newTab />
       <ShortcutItem url="#features" name={"Learn More"} color={"#8657ff"} customImage="/learnMore.png" />
     </div>
   )

@@ -27,14 +27,14 @@ const QA = () => {
       <h1 className="px-12 text-center text-2xl font-bold text-gray-800 md:text-3xl lg:text-4xl">
         Questions? Answers.
       </h1>
-      <AccordionRow htmlId={"costAny"} title="Does Nexo Start cost anything?">
-        No, Nexo Start is free to use. We do not and never will charge any fees for using the extension.
+      <AccordionRow htmlId={"costAny"} title="Does Tablio Start cost anything?">
+        No, Tablio Start is free to use. We do not and never will charge any fees for using the extension.
       </AccordionRow>
-      <AccordionRow htmlId={"installInst"} title="How do I install Nexo Start?">
-        Simply download the extension from the Chrome web store or the Firefox web store. Thats it!
+      <AccordionRow htmlId={"installInst"} title="How do I install Tablio Start?">
+        Simply download the extension from the Chrome web store. Thats it!
       </AccordionRow>
-      <AccordionRow htmlId={"browserSup"} last={true} title="What browsers can I use Nexo Start on?">
-        Currently Nexo Start supports Google Chrome and Mozilla Firefox.
+      <AccordionRow htmlId={"browserSup"} last={true} title="What browsers can I use Tablio Start on?">
+        Currently Tablio Start only supports Chrome.
       </AccordionRow>
     </section>
   )

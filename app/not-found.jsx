@@ -4,7 +4,7 @@ const page = () => {
   return (
     <main className="xs:px-6 pm:px-24 relative mx-auto mt-16 max-w-screen-xl px-4 text-white sm:px-8 md:px-12 lg:px-16">
       <h1 className="text-2xl font-semibold">Page not found</h1>
-      <p className="my-4 lg:my-12">Oops, you seem to have made your way to something I haven't built (yet, maybe).</p>
+      <p className="my-4 lg:my-12">Oops, you seem to have made your way to something I haven&apos;t built (yet, maybe).</p>
       <Link className="group relative inline-block w-fit" href="/">
         <span className="absolute rounded md:inset-0"></span>
         <span className="mmax:hover:border-teal-400 mmax:hover:text-teal-400 flex w-fit items-center gap-2 rounded border border-white/20 px-2 py-1 text-lg font-medium text-slate-200 transition-colors duration-75 ">
